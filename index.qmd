@@ -7,5 +7,25 @@ This is a Quarto website.
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 ```{r}
-1 + 1 + 1
+
+#| echo: false
+#| warning: false
+
+#Read in data
+
+library(ggplot2)
+
+library(readxl)
+GD_Final_Project_2 <- read_excel("C:/Users/고윤재/Downloads/GD Final Project 2.xlsx")
+View(GD_Final_Project_2)
+
+#Creating scatterplot
+
+ggplot(GD_Final_Project_2, aes(x = EIU, y = QuODA)) + 
+  geom_point(color = "#065465", size = 2) +
+  labs(title = "Scatterplot of Democracy Level and Quality of ODA",
+       x = "Democracy Level",
+       y = "Quality of ODA")
+
+```
 ```
