@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "psci3200-final project-yk",
+    "title": "PSCI3200 Final Project",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n#| echo: false\n#| warning: false\n\n#Read in data\n\nlibrary(ggplot2)\n\nlibrary(readxl)\nGD_Final_Project_2 &lt;- read_excel(\"C:/Users/고윤재/Downloads/GD Final Project 2.xlsx\")\nView(GD_Final_Project_2)\n\n#Creating scatterplot\n\nggplot(GD_Final_Project_2, aes(x = EIU, y = QuODA)) + \n  geom_point(color = \"#065465\", size = 2) +\n  labs(title = \"Scatterplot of Democracy Level and Quality of ODA\",\n       x = \"Democracy Level\",\n       y = \"Quality of ODA\")\n\n\n\n\n\n\n\n\n```"
+    "text": "Research Question: Does the level of democracy of donor countries affect the quality of their ODA?"
   },
   {
     "objectID": "about.html",
