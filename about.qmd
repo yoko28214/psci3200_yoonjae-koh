@@ -1,9 +1,816 @@
 ---
-title: "About"
+title: "Global Development: Final Project"
+author: "Yoonjae Koh"
+editor: source
+
+institute: "University of Pennsylvania"
+date: last-modified
+toc: true
+output:
+  html_document:
+    math: true
+
+bibliography: references.bib
+
+format:
+  html: 
+    self-contained: true
 ---
 
-About this site
+**Disclosure**: Chat GPT was used to generate code for adding manual citations to Reference section.
 
-```{r}
-1 + 1
+# #1 Introduction
+
+**Research Question** Does the level of democracy of donor countries affect the quality of their ODA?
+
+In domestic politics, high democracy level is an indicator of better quality of governance. Democratic countries with free and fair elections are equipped with “better regulatory framework” and increased efficiency and transparency, which could imply a greater economic and social development. [@stockemer2014regime] Whether the same pattern applies to the relationship between a government’s level of democracy and its quality of Official Development Assistance (ODA) provided to a recipient country is a different question. Unlike domestic politics, the beneficiaries of the government funding and programs are external populations who aren’t direct constituents of the donor government. This research will explore whether the democracy level of donor countries is still positively related to the quality of their ODA programs targeting external beneficiaries. It will also conduct specific analysis on which dimensions of democracy (participatory, liberal, deliberative, egalitarian, and electoral) are more strongly correlated to the quality of aid to identify the specific mechanisms by which the two variables are related. I predict that egalitarian and deliberate democracy will be more strongly related to quality of aid compared to other dimensions and participatory democracy will have the weakest relationship.
+
+Existing literature largely focuses on the democracy level of the recipient country, and comparative studies of donors and their aid qualities often lack structural explanations for those differences with regard to regime type. For instance, numerous studies highlight how Nordic countries tend to have higher qualities of ODA. Their aid decisions are less affected by the recipient countries’ quality of trade policies or political ties, and they also tend to provide more aid to countries with better human rights. [@gates2004global] Furthermore, along with Canada, the Netherlands, and others, Nordic countries are known to be primarily unaffected by political interests and driven by humanitarian concerns; in contrast, donors such as “US, UK, Japan, France and Germany” tend to be more affected by “political or commercial interests” that serve their own countries. [@ali2015donors] However, there is a lack of attempt to compare the quality of political regimes of these countries and whether they can account for the differing qualities in ODA.
+
+Despite the lack of research that directly investigates the relationship between democracy and quality of ODA, a study by Faust in 2008 on democracy level and external development promotion indicates that there is a positive relationship between democracy and quality of ODA. According to Faust, countries with higher levels of democracy will exhibit higher levels of commitment to promotion of development in developing countries. Faust attributes this pattern to a higher degree of “democratic voice and accountability,” which includes elements of free and fair elections, democratic competition, press freedom, transparency, and government responsiveness etc. I argue that the democratic constraint may restrain governments from pursuing programs that benefit specific interest groups, and thus, more democratic governments are more likely to commit to promotion of external development.[@FAUST2008383] This suggests that having a democratic institution is not only significant for domestic politics but also for external foreign policy.
+
+However, this research does not directly compare characteristics of democracy and quality of aid, as the Commitment to Development Index used in the research encompasses various fields of policy, such as environment, trade, and investment. Furthermore, there is existing literature that casts doubt on whether public interest is reflected in foreign aid policy and suggests lack of public interest in foreign aid policy. [@zimmerman2007determinants] [@otter2003domestic] Thus, there is a need to look more closely at the specific dimensions of quality of aid that are affected by the mechanisms of democracy.
+
+In addition to the study by Faust, there is existing literature related to specific dimensions of democracy or quality of aid that implies a positive relationship between democracy and aid quality. Study by Leroy et al. finds that countries with higher levels of democracy tend to have higher levels of fiscal transparency, which is one of the dimensions of high quality aid. [@diniz2021more] Furthermore, a study by Knowles suggests that governments who are more egalitarian provide greater shares of aid as opposed to countries with lower social capital.[@knowles2007social]
+
+Overall, while existing literature highlights the differences in ODA between donors and insinuates a positive relationship between democracy level and aid quality, there is a lack of direct research on the specific democratic mechanisms that account for differences that are specific to the topic of quality of aid. This research will fill in the gap by analyzing the influence of specific democracy levels on qualities of aid, including prioritization, ownership, transparency, and evaluation. Moreover, this research will be especially pertinent as there is an increasing number of donor countries who are different from traditional western, democratic states, such as China. The outcomes of this research can hint whether less democratic donors can also provide high quality of ODA.
+
+# #2 Hypothesis
+
+**Hypothesis** Countries with higher levels of democracy will have higher quality of ODA programs.
+
+In particular, the level of deliberative democracy and egalitarian democracy will have a greater effect on quality of aid, whereas participatory democracy will be the weakest.
+
+**Explanation** I predict that higher levels of democracy will have higher quality of ODA programs as elements of quality democratic government, including egalitarian and deliberative elements, that are beneficial to high quality aid will spillover to the ODA program, and the spillover will be reinforced through international pressure.
+
+To begin with the egalitarian element, the higher the government’s level of egalitarian democracy is, the more equal the citizens are in their protection of rights and freedom, distribution of resources, and access to power \[V-dem\]. I predict that this principle will spillover into orchestrating ODA programs that are more focused on funding under-aided countries and increasing ownership of recipient countries. Study by Knowles also demonstrates that more egalitarian countries allocate greater shares of their budget to aid. It writes that a possible explanation could be the spillover of a government’s domestic tradition of “transferring funds to those on low incomes” to foreign aid policy. Such governments who meet the UN target for ODA (0.7% of GNI) are largely Nordic countries, such as Denmark, Norway, and Sweden, who have low levels of inequality. [@knowles2007social]
+
+I also expect to see a strong correlation between aid quality and deliberative democracy. In contrast, I expect participatory democracy to be the weakest among the five dimensions. Deliberative democracy emphasizes the process of deliberation in which common good is the centre of political decisions, achieved through dialogue.[@V_Dem] It aims for a deeper deliberation by keeping the representative group involved to a small size. It also expects the participants to be “well informed about the topic,” [@newdemocracy] which may also explain why democracies have greater fiscal transparency \[Are more Transparent Countries also more Democratic?\] Thus, deliberative democracies prefer having a smaller group of representatives perform effective decision making. On the contrary, participatory democracy expects citizens to actively participate “in all political processes.” [@V_Dem] They prefer having a larger group of people involved in the decision making process; in other words, whereas deliberative democracy favors depth and quality, participatory democracy prefers breadth and quantity. [@newdemocracy]
+
+Numerous literature suggests how a deliberative approach is more influential in shaping the apparatus of ODA whereas public opinion matters less in determining ODA policies. Study by Otter highlights the lack of solid conclusion for the public opinion mechanism in shaping ODA policies. While some governments had changes in foreign aid performance in alignment with the changes in public opinion, other cases did not demonstrate the same pattern. The study also writes that in “elite policy areas such as foreign aid\[,\]” public opinion matters less to the government. [@otter2003domestic] One example of such a case is the US; while the intellectual elite, regardless of whether they are Democrat or Republican, demonstrate great interest in foreign assistance, the public lacks both knowledge and interest in the US development policy. [@de2019us]Similarly, in a study of influence of Aid Transparency Index (ATI) on government donors, the researchers found that the main channel through which ATI affects donor behaviour is by “\[invoking\] normative and reputational power” of elites who are the “primary drivers of \[donor\] agencies.” [@honig2019race] Moreover, another study found that having an egalitarian, welfare government does not shape the public’s opinion on foreign aid, and the public’s opinion on foreign aid also does not transfer to the government’s foreign aid policy. While this study’s finding that there is zero to positive relationship between welfare state and foreign aid generosity somewhat differs from the results of study by Knowles, it shows that public opinion does not seem to be the explanatory mechanism for higher foreign aid among egalitarian governments. [@zimmerman2007determinants] These studies all indicate that in the field of ODA, the public plays little role in determining foreign aid; instead, the shapers of the policy are the small group of elite in the government. Thus, having a higher quality of deliberative democracy can effectively increase the quality of aid; on the other hand, the quality of participatory democracy would not have as significant of an impact on the quality of aid.
+
+This spillover of the egalitarian element and the effect of deliberative democracy on quality of foreign aid may also be further reinforced by the mechanism of international pressure. Democratic governments will be more responsive to the scrutiny of the international community including other countries and multilateral organizations. Existing literature also writes that governments can be held politically accountable for the outcomes of international cooperation in democracies and that democratic accountability can affect the apparatus of international cooperation [@urpelainen2012does]. Moreover, democratic societies traditionally tend to support liberal institutionalism [@johnson2023liberal], perhaps making them more likely to abide by expectations set by international rules and norms. One literature finds that “domestic structures and norms” induce democratic governments to have a higher chance of shaming norm violations than non-democracies. However, it did not find support for whether democratic governments are more or less likely to shame each other. [@koliev2020shaming] Even so, this suggests that democratic governments are more sensitive to international norms, and thus, I reason that countries with greater levels of democracy will have greater compliance with international norms on ODA, such as The Busan Partnership for Effective Development Co-operation.
+
+In summary, I reason that higher levels of democracy will correspond to higher quality of ODA in that the egalitarian aspect of government will spillover into quality of ODA and having a high deliberative democracy level will more effectively lead to increase in quality of ODA than participatory democracy level. Furthermore, these trends will be further reinforced through higher responsiveness of more democratic regimes (particularly, the elites in those regimes) to international pressure.
+
+# #3 Research Design
+
+## Variables
+
+### **Independent variable: Democracy level of donor country**
+
+The data used for the analysis is the 2021 V-Dem Core dataset from Varieties of Democracy. The unit of analysis is country, and there is data for 179 countries. The dataset consists of five high-level democracy indices that each measure a specific dimension of democracy. The indices are: electoral democracy index, liberal democracy index, participatory democracy index, deliberative democracy index, and egalitarian democracy index. Each index ranges from 0 to 1, with 0 indicating the lowest level of democracy and 1 being the highest.
+
+**Electoral democracy index** (v2x_polyarchy): measures the extent to which electoral democracy is achieved, which focuses on the responsiveness of rulers to citizens through sub-indices such as ‘clean election’, ‘freedom of expression and alternative sources of information’, ‘freedom of association’, ‘share of population with suffrage’, and ‘elected officials’. All remaining indices include the electoral democracy index as their component.
+
+**Liberal democracy index** (v2x_libdem): measures the extent to which liberal democracy is achieved, which focuses on protection of “individual and minority rights'' from the state and the majority. The sub-indices include ‘equality before the law and individual liberty index,’ ‘judicial constraints on the executive,’ and ‘legislative constraints on the executive index.’
+
+**Participatory democracy index** (v2x_partipdem): measures the extent to which participatory democracy is achieved, which focuses on active participation in political decision making by the citizens. Sub-indices include ‘civil society participation index,’ ‘direct popular vote index,’ ‘local government index,’ and ‘regional government index.’
+
+**Deliberative democracy index** (v2x_delibdem): measures the extent to which deliberative democracy is achieved, which focuses on making political decisions with motives for the common good. The indicators included are ‘common good,’ ‘range of consultation,’ ‘respect counterarguments,’ ‘engaged society,’ and ‘reasoned justification.’
+
+**Egalitarian democracy index** (v2x_egaldem): measures the extent to which egalitarian democracy is achieved which is when 1) there is equal protection of “rights and freedoms of individuals”, 2) equal distribution of resources among social groups, and 3) “equal access to power.” The sub-indices include ‘equal protection’, ‘equal access’, ‘equal distribution of resources.’
+
+These high-level indices are type D variables, which are in turn, composed of type A, B, or C variables. Type A is coded by project managers and research assistants, B by country coordinators or research assistants, or C by country experts (multiple for each variable).
+
+[@V_Dem]
+
+To get a better understanding of the overall democracy level, I added a new index ‘v2x_average’ which is an equally weighted average of these five democracy indices.
+
+### **Dependent variable: Quality of ODA**
+
+The quality of Official Development Assistance (ODA) is the dependent variable, measured using the QuODA 2021 dataset produced by Center for Global Development. The unit of analysis includes the 49 providers (30 bilateral, including EU, and 19 multilateral agencies). The QuODA framework measures performance on four dimensions of ODA quality: Prioritization, Ownership, Transparency & Untying, and Evaluation using 17 specific indicators.
+
+The **Prioritization** dimension evaluates how providers decide to allocate their aid. It assesses whether the allocations are well targeted for addressing “need and long-term development challenges” (2). The specific indicators include:
+
+-   P1: Aid spent in partner countries
+-   P2: Poverty focus
+-   P3: Contributions to under-aided countries
+-   P4: Core support to multilaterals
+-   P5: Supporting fragile states and global public goods
+
+The **Ownership** dimension measures the extent to which the providers encourage domestic ownership. The specific indicators include:
+
+-   O1: Alignment at objectives level
+-   O2: Use of country financial systems
+-   O3: Reliability and predictability
+-   O4: Partner feedback
+
+The **Transparency & Untying** dimension indicates the level of transparency of information provided by the donors, including timeliness and comprehensiveness, and the degree to which the procurements are tied. The specific indicators include:
+
+-   T1: Aid reported in IATI
+-   T2: Comprehensiveness of data (CRS)
+-   T3: Timeliness (IATI and CRS)
+-   T4: Untied aid (official)
+
+The **Evaluation** dimension measures the quality of the system by which the providers assess and learn from their development programs. The specific indicators include:
+
+-   E1: Evaluation systems
+-   E2: Institutional learning systems
+-   E3: Results-based management systems
+
+2021 indicators are derived from “in-depth analysis” by former and current experts at Center for Global Development and an independent consultant (Caitlin McKee, Catherine Blampied, Ian Mitchell and Andrew Rogerson). Editionsfrom previous years are written by experts in Brooking Institution and Center for Global Development.
+
+[Consultant](https://www.cgdev.org/blog/how-we-can-score-development-agencies-evaluation-and-learning-systems) [C.Mckee](http://www.cgdev.org/staff/caitlin-mckee) [I.Mitchell](http://www.cgdev.org/expert/ian-mitchell) [A. Rogerson](https://www.cgdev.org/expert/andrew-rogerson) [@mitchell2021quality]
+
+### **Sample**
+
+-   **29 bilateral agencies (countries)**
+-   The research uses the z-score for the overall dimensions of ODA. The sample for this research is 29 bilateral agencies who are members of the DAC (Development Assistance Committee). This research focuses on bilateral agencies as the goal is to examine the relationship between the donor government’s level of democracy and its aid quality. Among the 30 bilateral agencies, the European Union is excluded, making the total sample of the analysis 29.
+
+**Disclosure**: Chat GPT was used to generate the code for creating the scatter plot, adding text labels, adding caption, and table for summary of mean and range for key variables.
+
+## **Table Summary of Variables**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Read the Excel file into a data frame
+
+library(ggplot2)
+library(stringr)
+library(readxl)
+library(dplyr)
+
+VDem_2021 <- read_excel("C:/Users/고윤재/Downloads/V-Dem 2021.xlsx")
+
+Revised_QuODA2021 <- read_excel("C:/Users/고윤재/Downloads/Revised_QuODA2021.xlsx")
+
+# Creating new dataset by merging VDem (2021) and QuODA (2021) based on country name
+merged_VDem_QuODA <- merge(VDem_2021, Revised_QuODA2021[c("country_name", "QuODA_avg", "P_avg", "O_avg", "T_avg", "E_avg")], by = "country_name")
 ```
+
+***V-Dem***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+library(flextable)
+library(dplyr)
+
+# Calculate summary statistics
+summary_stats1 <- merged_VDem_QuODA %>%
+  summarise(
+    min_v2x = min(v2x_avg),
+    max_v2x = max(v2x_avg),
+    range_v2x = max(v2x_avg) - min(v2x_avg),
+    sd_v2x = sd(v2x_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats1) %>%
+  set_caption("Summary Statistics for VDem Average")
+```
+
+***Polyarchy Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats2 <- merged_VDem_QuODA %>%
+  summarise(
+    min_poly = min(v2x_polyarchy),
+    max_poly = max(v2x_polyarchy),
+    range_poly = max(v2x_polyarchy) - min(v2x_polyarchy),
+    sd_poly = sd(v2x_polyarchy),
+  )
+
+# Create a flextable
+flextable(summary_stats2) %>%
+  set_caption("Summary Statistics for Polyarchy")
+```
+
+***Liberal Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats3 <- merged_VDem_QuODA %>%
+  summarise(
+   min_libdem = min(v2x_libdem),
+    max_libdem = max(v2x_libdem),
+    range_libdem = max(v2x_libdem) - min(v2x_libdem),
+    sd_libdem = sd(v2x_libdem),
+  )
+
+# Create a flextable
+flextable(summary_stats3) %>%
+  set_caption("Summary Statistics for Liberal Democracy")
+```
+
+***Participatory Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats4 <- merged_VDem_QuODA %>%
+  summarise(
+   min_partpdem = min(v2x_partipdem),
+    max_partpdem = max(v2x_partipdem),
+    range_partpdem = max(v2x_partipdem) - min(v2x_partipdem),
+    sd_partpdem = sd(v2x_partipdem),
+  )
+
+# Create a flextable
+flextable(summary_stats4) %>%
+  set_caption("Summary Statistics for Participatory Democracy")
+```
+
+***Deliberative Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats5 <- merged_VDem_QuODA %>%
+  summarise(
+     min_delibdem = min(v2x_delibdem),
+    max_delibdem = max(v2x_delibdem),
+    range_delibdem = max(v2x_delibdem) - min(v2x_delibdem),
+    sd_delibdem = sd(v2x_delibdem),
+  )
+
+# Create a flextable
+flextable(summary_stats5) %>%
+  set_caption("Summary Statistics for Deliberative Democracy")
+```
+
+***Egalitarian Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats6 <- merged_VDem_QuODA %>%
+  summarise(
+     min_egaldem = min(v2x_egaldem),
+    max_egaldem = max(v2x_egaldem),
+    range_egaldem = max(v2x_egaldem) - min(v2x_egaldem),
+    sd_egaldem = sd(v2x_egaldem),
+  )
+
+# Create a flextable
+flextable(summary_stats6) %>%
+  set_caption("Summary Statistics for Egalitarian Democracy")
+```
+
+***QuODA***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats7 <- merged_VDem_QuODA %>%
+  summarise(
+    min_QuODA = min(QuODA_avg),
+    max_QuODA = max(QuODA_avg),
+    range_QuODA = max(QuODA_avg) - min(QuODA_avg),
+    sd_QuODA = sd(QuODA_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats7) %>%
+  set_caption("Summary Statistics for QuODA")
+```
+
+***Prioritization***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats8 <- merged_VDem_QuODA %>%
+  summarise(
+   min_P = min(P_avg),
+    max_P = max(P_avg),
+    range_P = max(P_avg) - min(P_avg),
+    sd_P = sd(P_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats8) %>%
+  set_caption("Summary Statistics for Prioritization")
+```
+
+***Ownership***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+# Calculate summary statistics
+summary_stats9 <- merged_VDem_QuODA %>%
+  summarise(
+   min_O = min(O_avg),
+    max_O = max(O_avg),
+    range_O = max(O_avg) - min(O_avg),
+    sd_O = sd(O_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats9) %>%
+  set_caption("Summary Statistics for Ownership")
+```
+
+***Transparency & Untying***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+   
+# Calculate summary statistics
+summary_stats10 <- merged_VDem_QuODA %>%
+  summarise(
+   min_T = min(T_avg),
+    max_T = max(T_avg),
+    range_T = max(T_avg) - min(T_avg),
+    sd_T = sd(T_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats10) %>%
+  set_caption("Summary Statistics for Transparency")   
+```
+
+***Evaluation***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+    
+filtered_merged_VDem_QuODA <- merged_VDem_QuODA %>%
+  filter(row_number() != 11)
+
+filtered_merged_VDem_QuODA$E_avg <- as.numeric(filtered_merged_VDem_QuODA$E_avg)
+
+
+# Calculate summary statistics
+summary_stats11 <- filtered_merged_VDem_QuODA %>%
+  summarise(
+   min_E = min(E_avg),
+    max_E = max(E_avg),
+    range_E = max(E_avg) - min(E_avg),
+    sd_E = sd(E_avg),
+  )
+
+# Create a flextable
+flextable(summary_stats11) %>%
+  set_caption("Summary Statistics for Evaluation")  
+
+```
+
+## Main Regression Model
+
+**Disclosure**: Chat GPT was used to generate the equation symbols.
+
+$$
+Y = \alpha + \beta_1 X_1 + \beta_2 X_2  + \epsilon
+$$
+
+-   Y = Quality of ODA
+-   $x_1$ = Democracy level of donor country
+-   $x_2$ = GDP per capita of donor country
+
+The main analysis of this research will be a linear regression analysis of the quality of democracy (V-dem) in 2021 and quality of ODA (QUODA) in 2021. There will also be a more specific linear regression for the each of the dimensions of the variables.
+
+**Potential confounder**: GDP per capita
+
+Literature seems to imply that altruistic nature of aid policies are indifferent to the economic capacity of the donor in that great economies like the US and Japan are not categorized as altruistic donors. Moreover, Ireland, despite being a relatively poor donor in the 1980s-90s with a small budget for aid, provided assistance primarily through multilateral channels and is categorized as an altruistic donor. Similarly, Switzerland, who also did not have large budgets for aid, continued to provide untied aid to recipient countries. [@berthelemy2006bilateral] However, GDP per capita is included in the main regression model as a covariate in that it could still indirectly affect the quality of ODA. Larger economies may have greater surplus of resources that they can use to increase the quality of aid by better allocation and increased investment in developing better evaluation and overall ODA system. Furthermore, GDP per capita may also promote democracy. Existing literature indicates that economic development through capitalist mechanisms promotes democracy by changing the class structure.[@10.1257/jep.7.3.71]
+
+**Time**: Main regression model is a cross-national analysis using the data from 2021. Thus, there is a limit to concluding the causal relationship between level of democracy and quality of ODA in that the change in quality of ODA and democracy across time is not observed. Furthermore, countries admitted in DAC are those who already meet certain criteria in their efforts and system for development cooperation.[JoinDAC](https://www.oecd.org/dac/dac-global-relations/joining-the-development-assistance-committee.htm#:~:text=by%20DAC%20members.-,How%20does%20the%20DAC%20accession%20process%20work%3F,other%20countries) Thus, time may be a confounding variable in that countries who join at a later period may have lower quality of ODA.
+
+**Empirical extension** Plot a scatterplot for average V-Dem index ranking and average QuODA dimension ranking for the previous years (2008, 209, 2012) and 2021 without the countries who joined DAC relatively recently (Slovakia, Slovenia, Czechia, Iceland, Poland, and Hungary) who also happen to have lower levels of democracy. If there is still a positive correlation, this means that the influence of having high quality democracy holds also for the more democratic countries as well and that the time at which the data was collected has little influence, strengthening the research.
+
+# #4 Findings
+
+## Scatterplots
+
+**Disclosure**: Chat GPT was used to generate code for scatter plots,regression analysis, and reading data .
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+# Create the scatter plots and add text labels
+## Democracy & Quality of ODA
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_avg, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 1. Scatterplot of Democracy Level and Quality of ODA",
+       x = "Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 1 indicates a positive, seemingly strong correlation between democracy level (X-axis) and quality of ODA (Y-axis).", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+
+
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+## Electoral democracy & Quality of ODA
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_polyarchy, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 2. Scatterplot of Electoral Democracy and Quality of ODA",
+       x = "Electoral Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 2 indicates a positive, seemingly strong correlation between electoral democracy and quality of ODA.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Liberal democracy & Quality of ODA
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_libdem, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 3. Scatterplot of Liberal Democracy and Quality of ODA",
+       x = "Liberal Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 3 indicates a positive, seemingly strong correlation between electoral democracy and quality of ODA.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Participatory democracy & Quality of ODA
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_partipdem, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 4. Scatterplot of Participatory Democracy and Quality of ODA",
+       x = "Participatory Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 4 indicates a positive, seemingly strong correlation between participatory democracy and quality of ODA.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Deliberative democracy & Quality of ODA
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_delibdem, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 5. Scatterplot of Deliberative Democracy and Quality of ODA",
+       x = "Deliberative Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 5 indicates a positive, seemingly strong correlation between deliberative democracy and quality of ODA.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Egalitarian democracy & Quality of ODA
+                     
+ggplot(merged_VDem_QuODA, aes(x = v2x_egaldem, y = QuODA_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 6. Scatterplot of Egalitarian Democracy and Quality of ODA",
+       x = "Egalitarian Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 5 indicates a positive, seemingly strong correlation between egalitarian democracy and quality of ODA.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Democracy & Prioritization
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_avg, y = P_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 7. Scatterplot of Democracy and Prioritization",
+       x = "Democracy level",
+       y = "Prioritization") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 7 indicates a positive, seemingly strong correlation between democracy and prioritization.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Democracy & Ownership
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_avg, y = O_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 8. Scatterplot of Democracy and Ownership",
+       x = "Democracy level",
+       y = "Ownership") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 8 indicates a positive, seemingly strong correlation between democracy and ownership.", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Democracy & Transparency
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_avg, y = T_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 9. Scatterplot of Democracy and Transparency",
+       x = "Democracy level",
+       y = "Transparency") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 9 indicates a positive, seemingly strong correlation between democracy and transparency", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+## Democracy & Evaluation
+
+merged_VDem_QuODA$E_avg <- as.numeric(merged_VDem_QuODA$E_avg)
+
+ggplot(merged_VDem_QuODA, aes(x = v2x_avg, y = E_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 10. Scatterplot of Democracy and Evaluation",
+       x = "Democracy level",
+       y = "Evaluation") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 10 indicates a positive, seemingly strong correlation between democracy and evaluation", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 1.0)) + scale_y_continuous(limits = c(-3, 3.0))
+```
+
+**Interpretation**: The scatterplots all indicate a positive and seemingly moderate\~strong correlation between the two key variables. This supports the hypothesis that countries with higher democracy levels will have higher quality of ODA. It can also be observed that Nordic countries, who are assessed to have altruistic, high quality ODA programs, have higher democracy scores compared to the US, UK, and Japan whose programs are more self-serving.
+
+## Regression analysis
+
+### **Democracy level and quality of ODA**
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+GDP_2021 <- read_excel("C:/Users/고윤재/Downloads/GDP_per_capita_2021.xlsx")
+
+
+# Assuming GDP_2021 is your data frame
+GDP_2021$z_score <- unlist(scale(GDP_2021$'GDP_per_capita(USD)'))
+
+# Creating new dataset by merging GDP_2021 by country name
+merged_VDem_QuODA <- merge(merged_VDem_QuODA, GDP_2021[c("country_name", "GDP_per_capita(USD)", "z_score")], by = "country_name")
+
+filtered_merged_VDem_QuODA <- merge(filtered_merged_VDem_QuODA, GDP_2021[c("country_name", "GDP_per_capita(USD)")], by = "country_name")
+
+#Democracy level
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_avg + z_score, merged_VDem_QuODA)
+
+library(modelsummary)
+
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+### **Dimensions of democracy level and quality of ODA**
+
+#### ***Electoral democracy (polyarchy)***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Polyarchy
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_polyarchy + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+#### ***Liberal Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Liberal
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_libdem + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+
+```
+
+#### ***Participatory Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Participatory
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_partipdem +  z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+
+```
+
+#### ***Deliberative Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Deliberative
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_delibdem + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+
+```
+
+#### ***Egalitarian Democracy***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#Egalitarian
+models <- list()
+models[['Multivariate']] <- lm(QuODA_avg ~ v2x_egaldem + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+
+```
+
+### **Democracy level and different dimensions of quality of ODA**
+
+#### ***Prioritization***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Prioritization
+models <- list()
+models[['Multivariate']] <- lm(P_avg ~ v2x_avg + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+#### ***Ownership***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#Ownership
+models <- list()
+models[['Multivariate']] <- lm(O_avg ~ v2x_avg + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+#### ***Transparency***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+#Transparency
+models <- list()
+models[['Multivariate']] <- lm(T_avg ~ v2x_avg + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+#### ***Evaluation***
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Evaluation
+models <- list()
+models[['Multivariate']] <- lm(E_avg ~ v2x_avg + z_score, merged_VDem_QuODA)
+
+modelsummary(
+  models,
+  estimate  = "{estimate}{stars} ({std.error})",
+  statistic = NULL,
+  gof_omit = 'IC|RMSE|Log|F|R2$|Std.', 
+  results = 'hide'
+)
+```
+
+Note: Hungary has no data available for Evaluation average.
+
+Interpretation: Overall, democracy level has a statistically significant, positive relationship with the quality of ODA.Thus, we accept the first hypothesis that higher the level of democracy, the higher the level of quality of ODA would be.
+
+However, the second hypothesis that the deliberative democracy would be the most strongly related dimension is rejected. While all the dimensions show significant magnitude, deliberative dimension has the smallest magnitude of 2.765. The second lowest is participatory dimension, which does not deviate too much from the second hypothesis that the participatory dimension would be the lowest. The highest dimension is electoral dimension, and liberal and egalitarian dimension have similarly large magnitudes. With regard to statistical significance, all dimensions are statistically significant, but the participatory dimension has the weakest significance.
+
+This analysis also shows that the democracy level is most strongly related to ownership dimension (5.892) and transparency (4.003). Ownership is more statistically significant than transparency. Prioritization and Evaluation dimension had no statistical significance. However, Evaluation has a high magnitude of 4.284. While further research is needed, perhaps the omitting of Hungary, who has one of the lowest democracy and ODA quality level, due to missing data could have affected the statistical significance.
+
+Throughout the analysis, the level of wealth measured by GDP per capita had no statistical significance, supporting the argument that regime type is more significant than economic capacity in measuring quality of ODA.
+
+# #5 Empirical Extension
+
+**Disclosure**: Chat GPT was used to generate scatterplots.
+
+Plot a scatterplot for average V-Dem index ranking and average QuODA dimension ranking for the previous years (2008, 209, 2012) and 2021 without the countries who joined DAC relatively recently (Slovakia, Slovenia, Czechia, Iceland, Poland, and Hungary) who also happen to have lower levels of democracy. If there is still a positive correlation, this means that the influence of having high quality democracy holds also for the more democratic countries as well and that the time at which the data was collected has little influence, strengthening the research.
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+#Read data for previous years including avg ranking of v-dem indices and avg ranking of dimensions of ODA
+EE2008 <- read_excel("C:/Users/고윤재/OneDrive/문서/psci3200_yoonjae-koh/2008_EE.xlsx")
+EE2009 <- read_excel("C:/Users/고윤재/OneDrive/문서/psci3200_yoonjae-koh/2009_EE.xlsx")
+EE2012 <- read_excel("C:/Users/고윤재/OneDrive/문서/psci3200_yoonjae-koh/2012_EE.xlsx")
+EE2021 <- read_excel("C:/Users/고윤재/OneDrive/문서/psci3200_yoonjae-koh/2021_EE.xlsx")
+
+
+## Democracy & Quality of ODA 2008
+
+ggplot(EE2008, aes(x = v2x_rank, y = QuODA_rank_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 11. 2008 Democracy and Quality of ODA Ranking",
+       x = "Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 11 indicates lack of significant correlation between democracy level (X-axis) and quality of ODA (Y-axis).", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 23.0)) + scale_y_continuous(limits = c(0, 31)) +
+  geom_smooth(method = "lm", se = FALSE)
+
+## Democracy & Quality of ODA 2009
+
+ggplot(EE2009, aes(x = v2x_rank, y = QuODA_rank_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 12. 2009 Democracy and Quality of ODA Ranking",
+       x = "Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 12 indicates lack of significant correlation between democracy level (X-axis) and quality of ODA (Y-axis).", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 23.0)) + scale_y_continuous(limits = c(0, 31)) +
+  geom_smooth(method = "lm", se = FALSE)
+
+## Democracy & Quality of ODA 2012
+
+ggplot(EE2012, aes(x = v2x_rank, y = QuODA_rank_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 13. 2012 Democracy and Quality of ODA Ranking",
+       x = "Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 13 indicates lack of significant correlation between democracy level (X-axis) and quality of ODA (Y-axis).", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 23.0)) + scale_y_continuous(limits = c(0, 31)) +
+  geom_smooth(method = "lm", se = FALSE) 
+
+## Democracy & Quality of ODA 2021
+
+ggplot(EE2021, aes(x = v2x_rank, y = QuODA_rank_avg)) + 
+  geom_point(color = "#065465", size = 1) +
+  labs(title = "Figure 14. 2021 Democracy and Quality of ODA Ranking",
+       x = "Democracy Level",
+       y = "Quality of ODA") +
+  geom_text(aes(label = country_text_id), vjust = 1, hjust = -0.2, size = 1.5, color = "black") +
+  labs(caption = str_wrap("Figure 14 indicates weak, positive correlation between democracy level (X-axis) and quality of ODA (Y-axis).", width = 135)) +
+  theme(plot.caption = element_text(margin = margin(t = 10))) +
+  scale_x_continuous(limits = c(0.0, 23.0)) + scale_y_continuous(limits = c(0, 29)) +
+  geom_smooth(method = "lm", se = FALSE)
+
+
+```
+
+**Interpretation**: the scatterplot weakens the hypothesis that democracy influences the quality of ODA. A positive correlation can only be observed in 2021, and for the previous three years, there seems to be lack of any significant correlation. This could mean that a certain confounder related to time could be impacting the democracy levels and ODA quality. However, at least in 2012, it seems that even for the most democratic countries, an increase in democracy level is correlated to increase in quality of ODA, albeit to a weaker degree.
+
+The lack of significant correlation in the previous years could also be due to the limitations of the empirical extension. First, there is no publicly available data for absolute values of QuODA for the previous editions (2008, 2009, 2012, 2014). I have been able to find the rankings of the countries for 2008, 2009, 2012; however, as they are ordinal variables, the resulting correlations and line of fit have disparities with real life data and less meaningful. Another factor that affects this could be the change in methodology in 2021. The previous editions define quality of ODA through maximizing efficiency, fostering institutions, reducing burden, transparency and learning, and specific indicators have gone through significant change as well. Thus, there could be issues with internal validity.
+
+Sources for data file: [@birdsall2010quality] [@birdsall2012quality] [@birdsall2014quality] [@allen2018quality]
+
+# #6 Discussion and Policy Implications
+
+The data analysis shows that in 2021, the level of democracy has a strong, positive influence the quality of ODA. While all the dimensions had strong, positive relationship, electoral democracy, liberal democracy were particularly strongly related to the quality of ODA. This contrasts with the second part of the hypothesis which states that deliberative democracy will have a stronger influence than other dimensions. In fact, deliberative was the weakest dimension. While not the weakest, close to the prediction, participatory dimension was the second weakest variable. Egalitarian democracy was placed the middle.
+
+While further study should be done to specify the mechanism for the relationship between democracy and quality of ODA, it seems that democratic dimensions more strongly related to the institutional regulatory framework (electoral, liberal, egalitarian) have more influence on the quality of ODA, rather than democracy mechanisms that focus on consulting the public. While participatory and deliberative dimensions are also quite strongly related, the degree to which the government consults with the public seems to be less important than dimensions that require greater enforcement and more fundamental institutional capacity such as ensuring freedom of the public and press, protection of minority rights, and promotion of equality within society. This aligns with aforementioned literature on limited effects of public opinion, but it also shows that effective decision making through deliberative democracy is less influential.
+
+The analysis also shows that political regime is more significant of a determinant in the quality of aid than economic capacity. This means that even emerging donors or donors with less ODA budget could provide quality aid by implementing democratic elements into the program.
+
+More insightful results are found in the analysis of specific dimensions of quality of aid. Democracy is strongly related to ownership and transparency of aid, and this could be the influence of high level of freedom of press, protection of minority rights, and promotion of equality. Rather than through public opinion mechanism mentioned in the egalitarian study [\@ @zimmerman2007determinants], these elements of the institution could spillover into the decision making of foreign aid policies through existing bureaucratic measures that government uses to make foreign aid decisions, giving more voice to the locals and increasing transparency in the disclosure of information. International pressure could also be drivers of such results. Higher levels of freedom of press and responsiveness of government to citizens could mean that governments who hold up high standards for these democratic elements may want to maintain their reputation.
+
+This research shows that transparency and ownership are the issues that are the most dependent on democracy levels among other dimensions. This could imply that on the other hand, these are the areas that could be most critically impacted when emerging donors with low levels of democracy provide ODA. Thus, international organizations or agreements that oversee ODA should focus on these dimensions in light of emerging non-democratic donors and specifically monitor how well non-democratic donors comply in transparency and ownership expectations.
+
+This research has limitations in that its sample size is relatively small with countries who are already above certain levels of democracy. Furthermore, the empirical extensions shows inconclusive results for the relationship in the previous years. However, the empirical extension also faces several limitations due to limited available data as mentioned previously. Future research could be done on the specific mechanisms through which the electoral, liberal, and egalitarian democracy increase quality of ODA.
